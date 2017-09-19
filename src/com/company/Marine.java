@@ -33,7 +33,7 @@ public class Marine extends Soldier implements SecondaryWeapon {
     }
 
     @Override
-    public void shootingDefaultMethod() {
-        System.out.println("More specific default shooting");
+    public String shootingDefaultMethod() {
+        return "More specific default shooting";
     }
 }
